@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA138B5A291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B59291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */; };
+		FA138B5C291106DA00D16B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B5B291106DA00D16B39 /* ContentView.swift */; };
+		FA138B5E291106DB00D16B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA138B5D291106DB00D16B39 /* Assets.xcassets */; };
+		FA138B61291106DB00D16B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA138B60291106DB00D16B39 /* Preview Assets.xcassets */; };
+		FA138B6B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B6A291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.swift */; };
+		FA138B75291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B74291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.swift */; };
+		FA138B77291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B76291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift */; };
+		FA138B7D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FA138B7C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FA138B82291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B81291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */; };
+		FA138B84291106DB00D16B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B83291106DB00D16B39 /* ContentView.swift */; };
+		FA138B86291106DB00D16B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA138B85291106DB00D16B39 /* Assets.xcassets */; };
+		FA138B89291106DB00D16B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA138B88291106DB00D16B39 /* Preview Assets.xcassets */; };
+		FA138B93291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B92291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift */; };
+		FA138B9D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B9C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift */; };
+		FA138B9F291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA138B9E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA138B67291106DB00D16B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA138B4E291106DA00D16B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA138B55291106DA00D16B39;
+			remoteInfo = DataCollectionForAppleWatchWithiPhone;
+		};
+		FA138B71291106DB00D16B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA138B4E291106DA00D16B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA138B55291106DA00D16B39;
+			remoteInfo = DataCollectionForAppleWatchWithiPhone;
+		};
+		FA138B7E291106DB00D16B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA138B4E291106DA00D16B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA138B7B291106DB00D16B39;
+			remoteInfo = "DataCollectionForAppleWatchWithiPhone Watch App";
+		};
+		FA138B8F291106DB00D16B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA138B4E291106DA00D16B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA138B7B291106DB00D16B39;
+			remoteInfo = "DataCollectionForAppleWatchWithiPhone Watch App";
+		};
+		FA138B99291106DB00D16B39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA138B4E291106DA00D16B39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA138B7B291106DB00D16B39;
+			remoteInfo = "DataCollectionForAppleWatchWithiPhone Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA138BA5291106DB00D16B39 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FA138B7D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA138B56291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataCollectionForAppleWatchWithiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B59291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhoneApp.swift; sourceTree = "<group>"; };
+		FA138B5B291106DA00D16B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA138B5D291106DB00D16B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA138B60291106DB00D16B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA138B66291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataCollectionForAppleWatchWithiPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B6A291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhoneTests.swift; sourceTree = "<group>"; };
+		FA138B70291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataCollectionForAppleWatchWithiPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B74291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhoneUITests.swift; sourceTree = "<group>"; };
+		FA138B76291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA138B7C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataCollectionForAppleWatchWithiPhone Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B81291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhoneApp.swift; sourceTree = "<group>"; };
+		FA138B83291106DB00D16B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA138B85291106DB00D16B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA138B88291106DB00D16B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA138B8E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataCollectionForAppleWatchWithiPhone Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B92291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift; sourceTree = "<group>"; };
+		FA138B98291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataCollectionForAppleWatchWithiPhone Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA138B9C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		FA138B9E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA138BB529110AE300D16B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA138BB8291227FA00D16B39 /* DataCollectionForAppleWatchWithiPhone-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DataCollectionForAppleWatchWithiPhone-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA138B53291106DA00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B63291106DB00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B6D291106DB00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B79291106DB00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B8B291106DB00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B95291106DB00D16B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA138B4D291106DA00D16B39 = {
+			isa = PBXGroup;
+			children = (
+				FA138B58291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */,
+				FA138B69291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests */,
+				FA138B73291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests */,
+				FA138B80291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */,
+				FA138B91291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests */,
+				FA138B9B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests */,
+				FA138B57291106DA00D16B39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA138B57291106DA00D16B39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B56291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone.app */,
+				FA138B66291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.xctest */,
+				FA138B70291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.xctest */,
+				FA138B7C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app */,
+				FA138B8E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests.xctest */,
+				FA138B98291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA138B58291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FA138BB529110AE300D16B39 /* Info.plist */,
+				FA138B59291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */,
+				FA138B5B291106DA00D16B39 /* ContentView.swift */,
+				FA138B5D291106DB00D16B39 /* Assets.xcassets */,
+				FA138B5F291106DB00D16B39 /* Preview Content */,
+			);
+			path = DataCollectionForAppleWatchWithiPhone;
+			sourceTree = "<group>";
+		};
+		FA138B5F291106DB00D16B39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B60291106DB00D16B39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA138B69291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B6A291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.swift */,
+			);
+			path = DataCollectionForAppleWatchWithiPhoneTests;
+			sourceTree = "<group>";
+		};
+		FA138B73291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B74291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.swift */,
+				FA138B76291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift */,
+			);
+			path = DataCollectionForAppleWatchWithiPhoneUITests;
+			sourceTree = "<group>";
+		};
+		FA138B80291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FA138BB8291227FA00D16B39 /* DataCollectionForAppleWatchWithiPhone-Watch-App-Info.plist */,
+				FA138B81291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift */,
+				FA138B83291106DB00D16B39 /* ContentView.swift */,
+				FA138B85291106DB00D16B39 /* Assets.xcassets */,
+				FA138B87291106DB00D16B39 /* Preview Content */,
+			);
+			path = "DataCollectionForAppleWatchWithiPhone Watch App";
+			sourceTree = "<group>";
+		};
+		FA138B87291106DB00D16B39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B88291106DB00D16B39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA138B91291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B92291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift */,
+			);
+			path = "DataCollectionForAppleWatchWithiPhone Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FA138B9B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA138B9C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift */,
+				FA138B9E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DataCollectionForAppleWatchWithiPhone Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA138B55291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BA6291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone" */;
+			buildPhases = (
+				FA138B52291106DA00D16B39 /* Sources */,
+				FA138B53291106DA00D16B39 /* Frameworks */,
+				FA138B54291106DA00D16B39 /* Resources */,
+				FA138BA5291106DB00D16B39 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA138B7F291106DB00D16B39 /* PBXTargetDependency */,
+			);
+			name = DataCollectionForAppleWatchWithiPhone;
+			productName = DataCollectionForAppleWatchWithiPhone;
+			productReference = FA138B56291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA138B65291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BA9291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhoneTests" */;
+			buildPhases = (
+				FA138B62291106DB00D16B39 /* Sources */,
+				FA138B63291106DB00D16B39 /* Frameworks */,
+				FA138B64291106DB00D16B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA138B68291106DB00D16B39 /* PBXTargetDependency */,
+			);
+			name = DataCollectionForAppleWatchWithiPhoneTests;
+			productName = DataCollectionForAppleWatchWithiPhoneTests;
+			productReference = FA138B66291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA138B6F291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BAC291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhoneUITests" */;
+			buildPhases = (
+				FA138B6C291106DB00D16B39 /* Sources */,
+				FA138B6D291106DB00D16B39 /* Frameworks */,
+				FA138B6E291106DB00D16B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA138B72291106DB00D16B39 /* PBXTargetDependency */,
+			);
+			name = DataCollectionForAppleWatchWithiPhoneUITests;
+			productName = DataCollectionForAppleWatchWithiPhoneUITests;
+			productReference = FA138B70291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FA138B7B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BA2291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch App" */;
+			buildPhases = (
+				FA138B78291106DB00D16B39 /* Sources */,
+				FA138B79291106DB00D16B39 /* Frameworks */,
+				FA138B7A291106DB00D16B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DataCollectionForAppleWatchWithiPhone Watch App";
+			productName = "DataCollectionForAppleWatchWithiPhone Watch App";
+			productReference = FA138B7C291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA138B8D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BAF291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch AppTests" */;
+			buildPhases = (
+				FA138B8A291106DB00D16B39 /* Sources */,
+				FA138B8B291106DB00D16B39 /* Frameworks */,
+				FA138B8C291106DB00D16B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA138B90291106DB00D16B39 /* PBXTargetDependency */,
+			);
+			name = "DataCollectionForAppleWatchWithiPhone Watch AppTests";
+			productName = "DataCollectionForAppleWatchWithiPhone Watch AppTests";
+			productReference = FA138B8E291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA138B97291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA138BB2291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch AppUITests" */;
+			buildPhases = (
+				FA138B94291106DB00D16B39 /* Sources */,
+				FA138B95291106DB00D16B39 /* Frameworks */,
+				FA138B96291106DB00D16B39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA138B9A291106DB00D16B39 /* PBXTargetDependency */,
+			);
+			name = "DataCollectionForAppleWatchWithiPhone Watch AppUITests";
+			productName = "DataCollectionForAppleWatchWithiPhone Watch AppUITests";
+			productReference = FA138B98291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA138B4E291106DA00D16B39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FA138B55291106DA00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FA138B65291106DB00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA138B55291106DA00D16B39;
+					};
+					FA138B6F291106DB00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA138B55291106DA00D16B39;
+					};
+					FA138B7B291106DB00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FA138B8D291106DB00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA138B7B291106DB00D16B39;
+					};
+					FA138B97291106DB00D16B39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA138B7B291106DB00D16B39;
+					};
+				};
+			};
+			buildConfigurationList = FA138B51291106DA00D16B39 /* Build configuration list for PBXProject "DataCollectionForAppleWatchWithiPhone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA138B4D291106DA00D16B39;
+			productRefGroup = FA138B57291106DA00D16B39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA138B55291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */,
+				FA138B65291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests */,
+				FA138B6F291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests */,
+				FA138B7B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */,
+				FA138B8D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppTests */,
+				FA138B97291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA138B54291106DA00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B61291106DB00D16B39 /* Preview Assets.xcassets in Resources */,
+				FA138B5E291106DB00D16B39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B64291106DB00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B6E291106DB00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B7A291106DB00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B89291106DB00D16B39 /* Preview Assets.xcassets in Resources */,
+				FA138B86291106DB00D16B39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B8C291106DB00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B96291106DB00D16B39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA138B52291106DA00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B5C291106DA00D16B39 /* ContentView.swift in Sources */,
+				FA138B5A291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B62291106DB00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B6B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B6C291106DB00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B77291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITestsLaunchTests.swift in Sources */,
+				FA138B75291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B78291106DB00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B84291106DB00D16B39 /* ContentView.swift in Sources */,
+				FA138B82291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B8A291106DB00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B93291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA138B94291106DB00D16B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA138B9F291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITestsLaunchTests.swift in Sources */,
+				FA138B9D291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA138B68291106DB00D16B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA138B55291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */;
+			targetProxy = FA138B67291106DB00D16B39 /* PBXContainerItemProxy */;
+		};
+		FA138B72291106DB00D16B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA138B55291106DA00D16B39 /* DataCollectionForAppleWatchWithiPhone */;
+			targetProxy = FA138B71291106DB00D16B39 /* PBXContainerItemProxy */;
+		};
+		FA138B7F291106DB00D16B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA138B7B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */;
+			targetProxy = FA138B7E291106DB00D16B39 /* PBXContainerItemProxy */;
+		};
+		FA138B90291106DB00D16B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA138B7B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */;
+			targetProxy = FA138B8F291106DB00D16B39 /* PBXContainerItemProxy */;
+		};
+		FA138B9A291106DB00D16B39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA138B7B291106DB00D16B39 /* DataCollectionForAppleWatchWithiPhone Watch App */;
+			targetProxy = FA138B99291106DB00D16B39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA138BA0291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA138BA1291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA138BA3291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataCollectionForAppleWatchWithiPhone Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DataCollectionForAppleWatchWithiPhone-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = createCSV;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "data need";
+				INFOPLIST_KEY_NSLocationUsageDescription = "data need";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "data need";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FA138BA4291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataCollectionForAppleWatchWithiPhone Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DataCollectionForAppleWatchWithiPhone-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = createCSV;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "data need";
+				INFOPLIST_KEY_NSLocationUsageDescription = "data need";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "data need";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		FA138BA7291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataCollectionForAppleWatchWithiPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataCollectionForAppleWatchWithiPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA138BA8291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataCollectionForAppleWatchWithiPhone/Preview Content\"";
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataCollectionForAppleWatchWithiPhone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DataCollectionForAppleWatchWithiPhone;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA138BAA291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataCollectionForAppleWatchWithiPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataCollectionForAppleWatchWithiPhone";
+			};
+			name = Debug;
+		};
+		FA138BAB291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataCollectionForAppleWatchWithiPhone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataCollectionForAppleWatchWithiPhone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA138BAD291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataCollectionForAppleWatchWithiPhone;
+			};
+			name = Debug;
+		};
+		FA138BAE291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Jaehyeoklim.DataCollectionForAppleWatchWithiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataCollectionForAppleWatchWithiPhone;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA138BB0291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaehyeoklim.DataCollectionForAppleWatchWithiPhone-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataCollectionForAppleWatchWithiPhone Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataCollectionForAppleWatchWithiPhone Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FA138BB1291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaehyeoklim.DataCollectionForAppleWatchWithiPhone-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataCollectionForAppleWatchWithiPhone Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DataCollectionForAppleWatchWithiPhone Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		FA138BB3291106DB00D16B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaehyeoklim.DataCollectionForAppleWatchWithiPhone-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DataCollectionForAppleWatchWithiPhone Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FA138BB4291106DB00D16B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6578S57CDT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaehyeoklim.DataCollectionForAppleWatchWithiPhone-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DataCollectionForAppleWatchWithiPhone Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA138B51291106DA00D16B39 /* Build configuration list for PBXProject "DataCollectionForAppleWatchWithiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BA0291106DB00D16B39 /* Debug */,
+				FA138BA1291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BA2291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BA3291106DB00D16B39 /* Debug */,
+				FA138BA4291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BA6291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BA7291106DB00D16B39 /* Debug */,
+				FA138BA8291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BA9291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BAA291106DB00D16B39 /* Debug */,
+				FA138BAB291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BAC291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BAD291106DB00D16B39 /* Debug */,
+				FA138BAE291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BAF291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BB0291106DB00D16B39 /* Debug */,
+				FA138BB1291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA138BB2291106DB00D16B39 /* Build configuration list for PBXNativeTarget "DataCollectionForAppleWatchWithiPhone Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA138BB3291106DB00D16B39 /* Debug */,
+				FA138BB4291106DB00D16B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA138B4E291106DA00D16B39 /* Project object */;
+}
